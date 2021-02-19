@@ -58,6 +58,6 @@ replace the current color with that color
 
 when submitting (put it back into "Add Mode")
 
-!(mockup)[mockup.png]
+![](mockup.png)
 
 
