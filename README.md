@@ -9,6 +9,8 @@ yarn install
 yarn start
 ```
 
+### Components can be placed in the components folder
+
 ## make a HelloWord component...
 
 h2 of "Hello World"
@@ -18,10 +20,10 @@ h2 of "Hello World"
 "Hello" name
 
 
-# button1 - setState
+## Make a button1 component - setState
     setState count
 
-# button2 (set state) - useEffect
+## Mak a button2 component (set state) - useEffect
     when number reaches 5
     alert('hello')
 
@@ -38,7 +40,7 @@ IE: image, name, phone number (if applicable)
 
 type in an input and hit enter (form submit)
 it should make a box (another component) appear on the page
-with whatever color you put in the input (using style object)
+with whatever color you put in the input (using a style object for the box for color)
 
 ## color palette app (use context)
 
