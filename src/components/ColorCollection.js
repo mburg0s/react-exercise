@@ -1,11 +1,12 @@
-// import {useContext} from 'react'
+import {useState} from 'react'
 // import { store } from './Provider'
+// export const [curColor, setColor] = useContext()
 export let currentColor = ''
-export let currentID = ''
+// export let currentID = ''
 export default function ColorCollection (props) {
         // const globalState = useContext(store)
         // const { dispatch } = globalState
-
+        const [currentID, setCurrentID] = useState('')
         function editColor(curC,curID) {
             document.querySelector('#color').value = curC
             // debugger

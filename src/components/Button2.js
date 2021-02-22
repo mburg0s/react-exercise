@@ -6,6 +6,7 @@ export default function Button1() {
     
 
     useEffect(() => {
+        // eslint-disable-next-line
         if (count == 5) {
             alertHello()
         }

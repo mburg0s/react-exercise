@@ -23,7 +23,7 @@ function todoReducer(state, action){
                    console.log(newC,'newc')
                     return newC
                 } 
-
+                    
                 return item
             })
             console.log(newColor, 'newcolor')
