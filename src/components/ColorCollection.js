@@ -12,7 +12,6 @@ export default function ColorCollection (props) {
             currentColor = curC
             currentID = curID
 
-
         }
 
     return (

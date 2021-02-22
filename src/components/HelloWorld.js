@@ -1,4 +1,4 @@
 export default function HelloWorld(){
-    return <h2>Hello World </h2>
+    return <h2 className="common">Hello World </h2>
 
 }

@@ -6,7 +6,7 @@ export default function Button1() {
     
 
     useEffect(() => {
-        if (count === 5) {
+        if (count == 5) {
             alertHello()
         }
     },[count])
@@ -16,7 +16,7 @@ export default function Button1() {
     }
 
     return (
-            <div>
+            <div className="common">
                 <button onClick={handleClick}>{count}</button>
             </div>     
 

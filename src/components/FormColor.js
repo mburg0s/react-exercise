@@ -6,6 +6,7 @@ import {currentColor, currentID} from './ColorCollection'
 export default function FormColor() {
     const globalState = useContext(store)
     const [text, setText] = useState('')
+    
     const color = globalState.state.color 
 
     const { dispatch } = globalState;
@@ -13,9 +14,7 @@ export default function FormColor() {
         e.preventDefault()
         console.log(dispatch.action)
         const validC = isValidColor(text) 
-        // debugger
         console.log(currentColor, currentID)
-        // debugger
         if ((validC) && (currentColor ==='')) {
             dispatch({type: 'ADD_COLOR', payload: text})
             setText('')
